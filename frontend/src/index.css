@@ -27,11 +27,12 @@ body {
 }
 header {
   grid-area: header;
-  background-color: #203040;
+  background-color: #1b2d3d;
 }
 main {
   grid-area: main;
   padding: 1rem;
+  background-color:#f7f2f2;
 }
 /* footer */
 
@@ -370,6 +371,12 @@ img.large {
   z-index: -1;
   margin-bottom: -150px;
   mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1) rgba(0, 0, 0, 0));
+}
+
+.image{
+  z-index: -1;
+  mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1) rgba(0, 0, 0, 0));
+
 }
 
 /* Search */
